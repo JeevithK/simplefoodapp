@@ -6,7 +6,7 @@ Welcome to the Food Recipe Web App! 🍲 This is a web application that allows u
 
 - **Random Recipe Generator:** Get a random meal recipe with a single click.
 - **Search for Recipes:** Find meals by name using the search functionality.
-- **Favorites Management:** Add meals to your favorites and view them in a separate section.
+- **Favorites Management:** Add meals to your favorites and view them in a separate section. Favorites are stored in the browser's local storage.
 - **Meal Details:** View detailed instructions and ingredients for each meal.
 - **Responsive Design:** Works well on both desktop and mobile devices.
 
@@ -14,5 +14,10 @@ Welcome to the Food Recipe Web App! 🍲 This is a web application that allows u
 
 - **HTML:** Structure of the web pages.
 - **CSS:** Styling and layout of the web pages.
-- **JavaScript:** Interactive functionality and API integration.
+- **JavaScript:** Interactive functionality, API integration, and local storage management.
 - **MealDB API:** Provides meal data for recipes.
+- **Local Storage:** Stores favorite meals on the user's browser.
+
+## Live Demo
+
+Check out the live version of the app here: [Food Recipe Web App](https://jeevithk.github.io/simplefoodapp/)
