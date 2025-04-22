@@ -20,4 +20,4 @@ Welcome to the Food Recipe Web App! 🍲 This is a web application that allows u
 
 ## Live Demo
 
-Check out the live version of the app here: [Food Recipe Web App](https://jeevithk.github.io/simplefoodapp/)
+Check out the live version of the app here: [Food Recipe Web App](https://simple-food-find-by-jk.netlify.app/)
