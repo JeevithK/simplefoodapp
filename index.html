@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/7e42e4ec46.js" crossorigin="anonymous"></script>
-    <script src="./script.js" defer></script>
-</head>
-<body>
-    <div class="mobileapp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <i class="fas fa-utensils"></i>
+          <span>Meal Finder</span>
+        </div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Recipes</a>
+          <a href="#">Categories</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+      <div class="mobileapp">
         <header>
-            <input class="searchitem" type="text" placeholder="Search">
-            <button class="searchbutt"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input
+            class="searchitem"
+            type="text"
+            placeholder="Search for meals..."
+          />
+          <button class="searchbutt"><i class="fas fa-search"></i></button>
         </header>
         <div class="favcont">
-            <h3>Favorite Meal</h3>
-            <ul class="favmealsdiv">
+          <h3>Favorite Meals</h3>
+          <ul class="favmealsdiv"></ul>
         </div>
-        <div class="mealsdiv">
-           
-        </div>
+        <div class="mealsdiv"></div>
+      </div>
     </div>
 
-
-
-    <div class="detcont hidden" id="detcont">
-        <!-- <div id="details" class="details">
-            <button class="closebutt"><i id="cross2" class="fa-solid fa-circle-xmark"></i></button>
-
-            <div class="popupinfo">
-                <div class="titimg">
-                
-                    <h2 style="margin-top: 6 0px;">Meal Title</h2>
-                    <img src="https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg" alt="">
-                </div> 
-                <div>
-                    <p class="ptag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi provident molestias voluptatum accusamus non ab laudantium asperiores quae? 
-                   
-                    </p>
-                </div>
-            </div>
-            
-        </div> -->
+    <div class="detcont">
+      <!-- Modal content will be inserted here -->
     </div>
-    
 
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
